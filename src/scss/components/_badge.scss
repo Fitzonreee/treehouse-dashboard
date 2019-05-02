@@ -1,0 +1,38 @@
+.badge {
+    border-radius: 0.25rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12),
+                0 2px 4px 0 rgba(0,0,0,0.08);
+    display: flex;
+    align-items: center;
+    padding: 0.85rem 1rem 0.85rem .75rem;
+    
+    &__link {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      width: 100%;
+    }
+  
+    &__img {
+      height: 2rem;
+      margin-right: auto;
+    }
+  
+    &__details {
+      font-size: 0.8rem;
+      text-align: right;
+      padding-left: 1rem;
+      color: $dark;
+    }
+  
+    &__name {
+      margin-bottom: 0.25rem;
+      font-weight: 100;
+    }
+  
+    &__earned {
+      font-size: 0.55rem;
+      color: rgba($dark, 0.5);
+      font-weight: 400;
+    }
+  }

@@ -1,0 +1,57 @@
+.profile {
+    grid-area: sidebar; 
+    border-right: 1px solid  rgba(236, 240, 241, 0.95);
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: calc(300px - 6rem);
+    padding: 3rem;
+  
+    &__picture {
+      width: 70%;
+      border-radius: 100%;
+      display: block;
+      margin: 0 auto 2rem auto;
+    }
+  
+    &__name {
+      font-size: 1.85rem;
+      font-weight: 400;
+    }
+  
+    &__link {
+      text-decoration: none;
+      color: $dark;
+      display: flex;
+      align-items: center;
+    }
+  
+    &__icon {
+      margin-right: 0.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+      svg {
+        fill: rgba($dark, 1);
+      }
+    }
+  
+    &__username {
+      font-weight: 300;
+      font-size: 0.8rem;
+      line-height: 1rem;
+    }
+  
+  }
+  
+  
+  
+  .stats {
+    grid-area: stats;
+  
+    .bar {
+      background: orangered;
+    }
+  }
